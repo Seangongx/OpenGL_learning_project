@@ -1,0 +1,11 @@
+﻿  color.cpp
+f:\github\opengl_learning_project\opengl_learning_project\lighting_project\color.cpp(218): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\github\opengl_learning_project\opengl_learning_project\lighting_project\color.cpp(306): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\github\opengl_learning_project\opengl_learning_project\lighting_project\color.cpp(307): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\github\opengl_learning_project\opengl_learning_project\lighting_project\color.cpp(311): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\github\opengl_learning_project\opengl_learning_project\lighting_project\color.cpp(312): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+f:\github\opengl_learning_project\opengl_learning_project\lighting_project\color.cpp(314): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\github\opengl_learning_project\opengl_learning_project\lighting_project\color.cpp(315): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\github\opengl_learning_project\opengl_learning_project\lighting_project\color.cpp(322): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  glad.c
+  lighting_project.vcxproj -> F:\GitHub\OpenGL_learning_project\OpenGL_learning_project\Debug\lighting_project.exe

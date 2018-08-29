@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "primer_project", "primer_project\primer_project.vcxproj", "{EE5FA5C3-0203-4C28-A8EA-8F7943D15515}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lighting_project", "lighting_project\lighting_project.vcxproj", "{A1D00B8A-AFF8-4A12-9155-C3C1C1859914}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE5FA5C3-0203-4C28-A8EA-8F7943D15515}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EE5FA5C3-0203-4C28-A8EA-8F7943D15515}.Debug|Win32.Build.0 = Debug|Win32
+		{EE5FA5C3-0203-4C28-A8EA-8F7943D15515}.Release|Win32.ActiveCfg = Release|Win32
+		{EE5FA5C3-0203-4C28-A8EA-8F7943D15515}.Release|Win32.Build.0 = Release|Win32
+		{A1D00B8A-AFF8-4A12-9155-C3C1C1859914}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A1D00B8A-AFF8-4A12-9155-C3C1C1859914}.Debug|Win32.Build.0 = Debug|Win32
+		{A1D00B8A-AFF8-4A12-9155-C3C1C1859914}.Release|Win32.ActiveCfg = Release|Win32
+		{A1D00B8A-AFF8-4A12-9155-C3C1C1859914}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
