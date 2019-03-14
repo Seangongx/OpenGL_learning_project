@@ -59,7 +59,7 @@ int main()
 	glfwSetCursorPosCallback(window, mouse_callback);
 	glfwSetScrollCallback(window, scroll_callback);
 
-	glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);//捕捉鼠标光标，让其在窗口内消失
+	//glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);//捕捉鼠标光标，让其在窗口内消失
 
 	//Initial GLAD
 	if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))

@@ -164,6 +164,8 @@ int main()
 	glEnableVertexAttribArray(1);
 
 
+	stbi_set_flip_vertically_on_load(true);
+
 	unsigned int texture1, texture2;
 
 	//第一张图
@@ -176,7 +178,6 @@ int main()
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 	//加载并生成纹理
 	int width, height, nrChannels;
-	stbi_set_flip_vertically_on_load(true);
 	unsigned char *data = stbi_load("container.jpg", &width, &height, &nrChannels, 0);
 	if (data)
 	{
@@ -239,26 +240,15 @@ int main()
 		lightShader.setMat4("projection", projection);
 		lightShader.setMat4("view", view);
 
-		//glm::mat4 model;
-		//lightShader.setMat4("model", model);
-		//glBindVertexArray(cubeVAO);
-		//glDrawArrays(GL_TRIANGLES, 0, 36);
-
-		for (unsigned int i = 0; i < 10; i++)
-		{
-			glm::mat4 model;
-			model = glm::translate(model, cubePositions[i]);
-			float angle = 20.0f * (i + 1);
-			model = glm::rotate(model, angle, glm::vec3(1.0f, 0.3f, 0.5f));
-			lightShader.setMat4("model", model);
-
-			glDrawArrays(GL_TRIANGLES, 0, 36);
-		}
+		glm::mat4 model;
+		lightShader.setMat4("model", model);
+		glBindVertexArray(cubeVAO);
+		glDrawArrays(GL_TRIANGLES, 0, 36);
 
 		lampShader.use();
 		lampShader.setMat4("projection", projection);
 		lampShader.setMat4("view", view);
-		glm::mat4 model = glm::mat4();
+		model = glm::mat4(1.0f);
 		model = glm::translate(model, lightPos);
 		model = glm::scale(model, glm::vec3(0.2f));
 		lampShader.setMat4("model", model);

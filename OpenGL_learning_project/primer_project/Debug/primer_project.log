@@ -1,5 +1,1 @@
-﻿glfw3.lib(init.obj) : error LNK2019: 无法解析的外部符号 __imp__vsnprintf，该符号在函数 __glfwInputError 中被引用
-MSVCRTD.lib(vsnprintf.obj) : error LNK2001: 无法解析的外部符号 __imp__vsnprintf
-glfw3.lib(context.obj) : error LNK2019: 无法解析的外部符号 __imp__sscanf，该符号在函数 __glfwRefreshContextAttribs 中被引用
-MSVCRTD.lib(vsnprintf.obj) : error LNK2001: 无法解析的外部符号 __imp___vsnprintf
-D:\github\OpenGL_learning_project\Debug\primer_project.exe : fatal error LNK1120: 3 个无法解析的外部命令
+﻿  primer_project.vcxproj -> D:\GitHub\OpenGL_learning_project\OpenGL_learning_project\Debug\primer_project.exe

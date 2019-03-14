@@ -15,12 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="shaders\colors.fs">
-      <Filter>源文件</Filter>
-    </None>
-    <None Include="shaders\colors.vs">
-      <Filter>源文件</Filter>
-    </None>
     <None Include="shaders\lamp.fs">
       <Filter>源文件</Filter>
     </None>
@@ -40,10 +34,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="color.cpp">
+    <ClCompile Include="glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="glad.c">
+    <ClCompile Include="multipleLights.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

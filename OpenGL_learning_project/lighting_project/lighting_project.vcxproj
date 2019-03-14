@@ -14,7 +14,7 @@
     <ProjectGuid>{A1D00B8A-AFF8-4A12-9155-C3C1C1859914}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>lighting_project</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -42,8 +42,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>F:\GitHub\OpenGL_learning_project\OpenGL_learning_project\libinclude\include;$(IncludePath)</IncludePath>
-    <LibraryPath>F:\GitHub\OpenGL_learning_project\OpenGL_learning_project\libinclude\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\GitHub\OpenGL_learning_project\OpenGL_learning_project\libinclude\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\GitHub\OpenGL_learning_project\OpenGL_learning_project\libinclude\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -82,8 +82,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="shaders\colors.fs" />
-    <None Include="shaders\colors.vs" />
     <None Include="shaders\lamp.fs" />
     <None Include="shaders\lamp.vs" />
   </ItemGroup>
@@ -93,8 +91,8 @@
     <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="color.cpp" />
     <ClCompile Include="glad.c" />
+    <ClCompile Include="multipleLights.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

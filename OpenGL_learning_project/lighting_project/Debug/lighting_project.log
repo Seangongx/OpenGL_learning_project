@@ -1,11 +1,21 @@
-﻿  color.cpp
-f:\github\opengl_learning_project\opengl_learning_project\lighting_project\color.cpp(218): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-f:\github\opengl_learning_project\opengl_learning_project\lighting_project\color.cpp(306): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-f:\github\opengl_learning_project\opengl_learning_project\lighting_project\color.cpp(307): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-f:\github\opengl_learning_project\opengl_learning_project\lighting_project\color.cpp(311): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-f:\github\opengl_learning_project\opengl_learning_project\lighting_project\color.cpp(312): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-f:\github\opengl_learning_project\opengl_learning_project\lighting_project\color.cpp(314): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-f:\github\opengl_learning_project\opengl_learning_project\lighting_project\color.cpp(315): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-f:\github\opengl_learning_project\opengl_learning_project\lighting_project\color.cpp(322): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
-  glad.c
-  lighting_project.vcxproj -> F:\GitHub\OpenGL_learning_project\OpenGL_learning_project\Debug\lighting_project.exe
+﻿  multipleLights.cpp
+d:\github\opengl_learning_project\opengl_learning_project\lighting_project\multiplelights.cpp(193): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\github\opengl_learning_project\opengl_learning_project\lighting_project\multiplelights.cpp(221): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+d:\github\opengl_learning_project\opengl_learning_project\lighting_project\multiplelights.cpp(227): warning C4305: “参数”: 从“double”到“float”截断
+d:\github\opengl_learning_project\opengl_learning_project\lighting_project\multiplelights.cpp(228): warning C4305: “参数”: 从“double”到“float”截断
+d:\github\opengl_learning_project\opengl_learning_project\lighting_project\multiplelights.cpp(235): warning C4305: “参数”: 从“double”到“float”截断
+d:\github\opengl_learning_project\opengl_learning_project\lighting_project\multiplelights.cpp(236): warning C4305: “参数”: 从“double”到“float”截断
+d:\github\opengl_learning_project\opengl_learning_project\lighting_project\multiplelights.cpp(243): warning C4305: “参数”: 从“double”到“float”截断
+d:\github\opengl_learning_project\opengl_learning_project\lighting_project\multiplelights.cpp(244): warning C4305: “参数”: 从“double”到“float”截断
+d:\github\opengl_learning_project\opengl_learning_project\lighting_project\multiplelights.cpp(251): warning C4305: “参数”: 从“double”到“float”截断
+d:\github\opengl_learning_project\opengl_learning_project\lighting_project\multiplelights.cpp(252): warning C4305: “参数”: 从“double”到“float”截断
+d:\github\opengl_learning_project\opengl_learning_project\lighting_project\multiplelights.cpp(262): warning C4305: “参数”: 从“double”到“float”截断
+d:\github\opengl_learning_project\opengl_learning_project\lighting_project\multiplelights.cpp(264): warning C4305: “参数”: 从“double”到“float”截断
+d:\github\opengl_learning_project\opengl_learning_project\lighting_project\multiplelights.cpp(352): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\github\opengl_learning_project\opengl_learning_project\lighting_project\multiplelights.cpp(353): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\github\opengl_learning_project\opengl_learning_project\lighting_project\multiplelights.cpp(357): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\github\opengl_learning_project\opengl_learning_project\lighting_project\multiplelights.cpp(358): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\github\opengl_learning_project\opengl_learning_project\lighting_project\multiplelights.cpp(360): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\github\opengl_learning_project\opengl_learning_project\lighting_project\multiplelights.cpp(361): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\github\opengl_learning_project\opengl_learning_project\lighting_project\multiplelights.cpp(368): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  lighting_project.vcxproj -> D:\GitHub\OpenGL_learning_project\OpenGL_learning_project\Debug\lighting_project.exe
